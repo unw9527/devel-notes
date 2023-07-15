@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# The file is from: https://github.com/thatLeaflet/change-theme/blob/main/change-theme.sh
+# Credits: https://github.com/thatLeaflet/change-theme/blob/main/change-theme.sh
 
 # put then names of your GTK3 themes here
 # for example, here's mine
-LIGHT_GTK3_THEME='Yaru-purple'
-DARK_GTK3_THEME='Yaru-purple-dark'
+LIGHT_GTK3_THEME='Yaru'
+DARK_GTK3_THEME='Yaru'
 
 
 CURRENT_THEME=$(gsettings get org.gnome.desktop.interface color-scheme)
